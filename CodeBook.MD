@@ -12,7 +12,7 @@ The following are the columns of the mean_tidy_data dataset. The measurements co
 t denotes time and these are time domain signals captured at a constant rate of 50 Hz. The prefix letter 'f' indicates frequency 
 domain signals of which a Fast Fourier Transform (FFT) was applied. Gyroscope signals are denoted with Gyro. The acceleration signal 
 was then separated into body and gravity acceleration signals denoted by BodyAcc or GravityAcc. The last character in the column names
-X, Y or Z is the X, Y and Z axes of the raw signals.
+X, Y or Z are the X, Y and Z axes of the raw signals.
 
  [1] "Subject" - the ID of the 30 volunteers                    
  [2] "Activity"  - the different activities the the volunteers performed.
