@@ -3,10 +3,9 @@ the raw data please check the README file.
 
 The datasets from training and test sets were merged to make one dataset for all 30 volunteers with all their activities 
 like WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. This single dataset has all the 561 feature 
-variables with the time and frequency domain. These features was the colum names of the dataset. A new dataset was then 
+variables with the time and frequency domain. These features were the column names of the dataset. A new dataset was then 
 created by extracting only the mean and standard deviation for each measurement. A descriptive activity names was substituted
-to name the activities in the data set instead of just number codes. The mean of the feature columns were then calculated 
-and named mean_tidy_data.
+to name the activities in the Acitivity column of the dataset instead of just number codes. The mean of the feature columns were then calculated and named mean_tidy_data.
 
 The following are the columns of the mean_tidy_data dataset. The measurements columns follow a certain notation. The prefix letter 
 t denotes time and these are time domain signals captured at a constant rate of 50 Hz. The prefix letter 'f' indicates frequency 
