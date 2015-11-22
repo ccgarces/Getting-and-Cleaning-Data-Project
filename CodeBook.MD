@@ -1,5 +1,4 @@
-This tidy data was taken from the Human Activity Recognition Using Smartphones Dataset. For complete description about
-the raw data please check the README.txt file. 
+This tidy data was taken from the Human Activity Recognition Using Smartphones Dataset. It calculates the mean of feature measurements for all activities for each subject. For complete description about the raw data please check the README.txt file. 
 
 The following are the columns of the tidy_data dataset. 
 
@@ -7,7 +6,7 @@ The following are the columns of the tidy_data dataset.
  [2] "Activity"  - the different activities the the volunteers performed. A descriptive activity names was substituted
 to original activities given in number code.
 
-The measurements columns below follow a certain notation. The prefix letter t denotes time and these are time domain signals captured at a constant rate of 50 Hz. The prefix letter 'f' indicates frequency domain signals of which a Fast Fourier Transform (FFT) was applied. Gyroscope signals are denoted with Gyro. The acceleration signal was then separated into body and gravity acceleration signals denoted by BodyAcc or GravityAcc. The last character in the column names X, Y or Z are the 3-axial signals in the X, Y and Z directions.
+The measurements columns below follow a certain notation. The prefix letter t denotes time and these are time domain signals captured at a constant rate of 50 Hz. The prefix letter 'f' indicates frequency domain signals of which a Fast Fourier Transform (FFT) was applied. Gyroscope signals are denoted with Gyro. The acceleration signal was then separated into body and gravity acceleration signals denoted by BodyAcc or GravityAcc. mean() means that the raw data mean was calculated while std() means that the raw data mean was calculated. Again, note that the tidy dataset had calculated the means of std() and means() columns. The last character in the column names X, Y or Z are the 3-axial signals in the X, Y and Z directions.
 
  [3] "tBodyAcc-mean()-X"            [4] "tBodyAcc-mean()-Y"          
  [5] "tBodyAcc-mean()-Z"            [6] "tGravityAcc-mean()-X"       
