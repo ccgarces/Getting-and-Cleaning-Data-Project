@@ -1,17 +1,13 @@
-This Tidy data was taken from the Human Activity Recognition Using Smartphones Dataset. For complete description about
-the raw data please check the README file. 
+This tidy data was taken from the Human Activity Recognition Using Smartphones Dataset. For complete description about
+the raw data please check the README.txt file. 
 
-The datasets from training and test sets were merged to make one dataset for all 30 volunteers with all their activities 
-like WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. This single dataset has all the 561 feature 
-variables with the time and frequency domain. These features were the column names of the dataset. A new dataset was then 
-created by extracting only the mean and standard deviation for each measurement. A descriptive activity names was substituted
-to name the activities in the Acitivity column of the dataset instead of just number codes. The mean of the feature columns were then calculated and named mean_tidy_data.
+The datasets from training and test sets were merged to make one dataset for all 30 volunteers with all their activities like WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. This single dataset has all the 561 feature variables with the time and frequency domain. These features were the column names of the dataset. A subset of the dataset was then created by extracting only the mean and standard deviation for each measurement. A descriptive activity names was substituted to code of the activities in the Activity column of the dataset. The mean of the feature columns were then calculated and the final dataset was named tidy_data.
 
-The following are the columns of the mean_tidy_data dataset. The measurements columns follow a certain notation. The prefix letter 
+The following are the columns of the tidy_data dataset. The measurements columns follow a certain notation. The prefix letter 
 t denotes time and these are time domain signals captured at a constant rate of 50 Hz. The prefix letter 'f' indicates frequency 
 domain signals of which a Fast Fourier Transform (FFT) was applied. Gyroscope signals are denoted with Gyro. The acceleration signal 
 was then separated into body and gravity acceleration signals denoted by BodyAcc or GravityAcc. The last character in the column names
-X, Y or Z are the X, Y and Z axes of the raw signals.
+X, Y or Z are the 3-axial signals in the X, Y and Z directions.
 
  [1] "Subject" - the ID of the 30 volunteers                    
  [2] "Activity"  - the different activities the the volunteers performed.
